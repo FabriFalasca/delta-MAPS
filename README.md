@@ -3,7 +3,7 @@
 
 # How to run it?
 
-- The spatiotemporal field to mine has to be a .mat file and be located in the folder "data". delta-MAPS accepts as input datasets defined on a regular two-dimensional grid with time series specified at each point. 
+- The spatiotemporal field to mine has to be a .mat file and be located in the folder "data". delta-MAPS accepts as input,   datasets defined on a regular two-dimensional grid with time series specified at each point. 
 
 - Two files have to be locate in the main folder:
 
@@ -36,7 +36,7 @@
                                    
                                    
   Given different fields (noisier or smoother), these parameters may change.
-  In the reference [1] we used the following parameter for mining the HadISST dataset for the period 1971-2015:
+  As an example, in reference [1] we used the following parameter for mining the HadISST dataset for the period 1971-2015:
              
              - k = 16 (an empirical method on how to determine the "right" k is described in ref [4])
              - alpha = 0.02
