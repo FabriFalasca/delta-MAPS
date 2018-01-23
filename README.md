@@ -40,7 +40,7 @@
              
              - k = 16
              - alpha = 0.02
-             - maxLag = 12. Given the monthly resolution of the dataset, this imply that, in this case the network inference 
+             - maxLag = 12. Given the monthly resolution of the dataset (HadISST), this implies that the network inference 
                computed the lag-correlations between every couple of domains from a minimum of -12 months to 12 months.
              - netSigLevel = 0.001  
                                                                                                    
