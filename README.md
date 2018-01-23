@@ -38,7 +38,7 @@
   Given different fields (noisier or smoother), these parameters may change.
   In the reference [1] we used the following parameter for mining the HadISST dataset for the period 1971-2015:
              
-             - k = 16
+             - k = 16 (an empirical method on how to determine the "right" k is described in ref [4])
              - alpha = 0.02
              - maxLag = 12. Given the monthly resolution of the dataset (HadISST), this implies that the network inference 
                computed the lag-correlations between every couple of domains from a minimum of -12 months to 12 months.
