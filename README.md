@@ -26,7 +26,7 @@
                           gigabytes.
                         - -cp ":DistLib_0.9.1.jar:jamtio.jar" DeltaMAPSclm tells the java runtime environment to start running  
                            DeltaMapsClimate.jar which is our main program to infer areas and the network between areas. 
-                        - The rest are input of deltaMAPS:
+                        - The rest are inputs of deltaMAPS:
                                    - ../fileloc.txt file containing one line specifying the path where the data are stored
                                    - ../latFile.txt file containing one line with the values of latitudes
                                    - k is the neighborhood size for peak identification
