@@ -16,7 +16,7 @@
 - To run the code, you have to be in the folder src and type the following commands
 
       (a) javac -classpath "DistLib_0.9.1.jar:jamtio.jar" *.java
-      (b) java -Xmx4g -cp ":DistLib_0.9.1.jar:jamtio.jar" DeltaMAPSclm ../fileloc.txt ../latFile.txt k alpha maxLag netSigLevel
+      (b) java -Xmx4g -cp ":DistLib_0.9.1.jar:jamtio.jar" DeltaMAPSclm ../fileloc.txt ../latFile.txt k alpha maxLag netSigLevel q 
   
   Step (a) is compile all java files (if you make a change in the files is necessary to recompile)
   Step (b) runs the code:
@@ -33,6 +33,10 @@
                                    - alpha is the domain identification significance level which will determine \delta.                                     
                                    - maxLag is the maximum possible lag that you want to use 
                                    - netSigLevel is the network identification significance level 
+                                   - q = TRUE/FALSE. 
+                                                If TRUE, the Flase Discovery Rate will be used for the network inference
+                                                If FALSE, a t-test will be used for the network inference.
+                                 
                                    
                                    
   Given different fields (noisier or smoother), these parameters may change.
@@ -43,6 +47,7 @@
              - maxLag = 12. Given the monthly resolution of the dataset (HadISST), this implies that the network inference 
                computed the lag-correlations between every couple of domains from a minimum of -12 months to 12 months.
              - netSigLevel = 0.001  
+             - FALSE
                                                                                                    
                  
 Some references
