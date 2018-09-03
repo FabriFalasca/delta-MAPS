@@ -34,7 +34,7 @@
                                    - maxLag is the maximum possible lag that you want to use 
                                    - netSigLevel is the network identification significance level 
                                    - q = TRUE/FALSE. 
-                                                If TRUE, the Flase Discovery Rate will be used for the network inference
+                                                If TRUE, the False Discovery Rate will be used for the network inference
                                                 If FALSE, a t-test will be used for the network inference.
                                  
                                    
