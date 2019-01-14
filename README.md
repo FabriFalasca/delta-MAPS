@@ -59,9 +59,7 @@ Some references
 Advancing climate science with Knowledge-Discovery through Data mining
 NPJ Climate and Atmosph. Science,4, doi:10.1038/s41612-017-0006-4 (freely available at the web page https://www.nature.com/articles/s41612-017-0006-4.epdf?author_access_token=8yKsWYkfRLJ28rJHh9KOeNRgN0jAjWel9jnR3ZoTv0Oq67pf4dFJ9xRac7v8-Q584LfS0snu0-26JHkQ8CJsqj5BToQ-jjytnD0wU6-ir8tLRxw4bqDtcfr4OPezgAJAXuV7s5Wt69I53GTpJDEjLw%3D%3D )
 
-- [2] A detailed description of the method can be found in https://arxiv.org/pdf/1602.07249.pdf 
+- [2] A detailed description of the method can be found in Fountalis, I., Dovrolis, C., Bracco, A. et al. Appl Netw Sci (2018) 3: 21. https://doi.org/10.1007/s41109-018-0078-z
 
-- [3] A brief description of the method can be also found in https://static-content.springer.com/esm/art%3A10.1038%2Fs41612-017-0006-4/MediaObjects/41612_2017_6_MOESM1_ESM.pdf
-
-- [4] Falasca, F., A. Bracco, A. Nenes, I. Fountalis (2018)
-Dimensionality reduction and network inference for climate data using class-MAPS: application to the CESM Large Ensemble sea surface temperature. JAMES, Submitted 
+- [3] Falasca, F., A. Bracco, A. Nenes, I. Fountalis (2018)
+Dimensionality reduction and network inference for climate data using delta-MAPS: application to the CESM Large Ensemble sea surface temperature. JAMES, Submitted 
