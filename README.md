@@ -63,4 +63,5 @@ NPJ Climate and Atmosph. Science,4, doi:10.1038/s41612-017-0006-4 (freely availa
 
 - [3] A brief description of the method can be also found in https://static-content.springer.com/esm/art%3A10.1038%2Fs41612-017-0006-4/MediaObjects/41612_2017_6_MOESM1_ESM.pdf
 
-- [4] F. Falasca, A. Bracco, A. Nenes, I. Fountalis, C. Dovrolis, Network properties of the Sea Surface Temperature field in reanalysis datasets and in the CESM Large Ensemble, in preparation and to be submitted to the Geoscientific Model Development Journal
+- [4] Falasca, F., A. Bracco, A. Nenes, I. Fountalis (2018)
+Dimensionality reduction and network inference for climate data using class-MAPS: application to the CESM Large Ensemble sea surface temperature. JAMES, Submitted 
