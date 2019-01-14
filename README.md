@@ -48,6 +48,9 @@
                computed the lag-correlations between every couple of domains from a minimum of -12 months to 12 months.
              - netSigLevel = 0.001  
              - FALSE
+  
+  IMPORTANT
+  Masked values should be set to -1000000
                                                                                                    
                  
 Some references
