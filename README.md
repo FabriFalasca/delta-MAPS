@@ -62,4 +62,5 @@ NPJ Climate and Atmosph. Science,4, doi:10.1038/s41612-017-0006-4 (freely availa
 - [2] A detailed description of the method can be found in Fountalis, I., Dovrolis, C., Bracco, A. et al. Appl Netw Sci (2018) 3: 21. https://doi.org/10.1007/s41109-018-0078-z
 
 - [3] Falasca, F., A. Bracco, A. Nenes, I. Fountalis (2018)
-Dimensionality reduction and network inference for climate data using delta-MAPS: application to the CESM Large Ensemble sea surface temperature. JAMES, Submitted 
+Dimensionality reduction and network inference for climate data using delta-MAPS: application to the CESM Large Ensemble sea surface temperature. Journal of Advances in Modeling Earth Systems.
+https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019MS001654
