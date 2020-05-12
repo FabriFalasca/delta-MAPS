@@ -43,14 +43,18 @@
   As an example, in reference [1] we used the following parameter for mining the HadISST dataset for the period 1971-2015:
              
              - k = 16 (an empirical method on how to determine the "right" k is described in ref [4])
-             - alpha = 0.02
+             - alpha = 0.01
              - maxLag = 12. Given the monthly resolution of the dataset (HadISST), this implies that the network inference 
                computed the lag-correlations between every couple of domains from a minimum of -12 months to 12 months.
              - netSigLevel = 0.001  
              - FALSE
   
-  IMPORTANT
+  - IMPORTANT
   Masked values should be set to -1000000
+  
+  Notes:
+  (a) delta-MAPS is currently implemented in Java. Codes for the network inference in Mathematica can also be found in https://github.com/FabriFalasca/network_Inference . Eventually though, we plan in implementing the code in Python. 
+  (b) In this repository we also add the main code for preprocessing the data. Codes for preprocessing are: (i) preProcessing.m, (ii) keepGoodYears.m, (iii) regressConfSen.m . The main code being preProcessing.m
                                                                                                    
                  
 Some references
