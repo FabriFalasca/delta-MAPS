@@ -43,7 +43,7 @@
   As an example, in reference [1] we used the following parameter for mining the HadISST dataset for the period 1971-2015:
              
              - k = 16 (an empirical method on how to determine the "right" k is described in ref [4])
-             - alpha = 0.01
+             - alpha = 0.02
              - maxLag = 12. Given the monthly resolution of the dataset (HadISST), this implies that the network inference 
                computed the lag-correlations between every couple of domains from a minimum of -12 months to 12 months.
              - netSigLevel = 0.001  
@@ -68,3 +68,5 @@ NPJ Climate and Atmosph. Science,4, doi:10.1038/s41612-017-0006-4 (freely availa
 - [3] Falasca, F., A. Bracco, A. Nenes, I. Fountalis (2018)
 Dimensionality reduction and network inference for climate data using delta-MAPS: application to the CESM Large Ensemble sea surface temperature. Journal of Advances in Modeling Earth Systems.
 https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019MS001654
+
+- [4] Falasca, F., Crétat, J., Braconnot, P. et al. Spatiotemporal complexity and time-dependent networks in sea surface temperature from mid- to late Holocene. Eur. Phys. J. Plus 135, 392 (2020). https://doi.org/10.1140/epjp/s13360-020-00403-x
